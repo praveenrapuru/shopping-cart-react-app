@@ -1,0 +1,34 @@
+.Container{
+  margin-right: 15px;
+  font-size: 17px;
+}
+.cart{
+  background-image: url('../static/cart-icon.png');
+  background-size: 60%;
+}
+.cartPopup {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 400px;
+  height: 100%;
+  background-color: white;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+  padding: 20px;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+  background-color: black;
+}
+.cartbutton{
+  background-color: black;
+  color: white;
+  border: 0;
+}
+
+.cart-total{
+  position: sticky;
+  bottom: 0;
+  background-color: yellow;
+  padding: 30px;
+  font-size: 20px;
+}
